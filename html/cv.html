@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV – Vitaliia Sivakova</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+  <meta name="theme-color" content="#7a5a3a" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__mark" aria-hidden="true"></div>
+        <div class="brand__text">
+          <div class="brand__title">Vitaliia Sivakova</div>
+          <div class="brand__subtitle">Webbutvecklare .NET – LIA</div>
+        </div>
+      </div>
+
+      <nav class="tabs" aria-label="Sidor">
+        <a class="tab" href="../index.html">Portfolio</a>
+        <a class="tab tab--active" href="./cv.html" aria-current="page">CV</a>
+        <a class="tab" href="./personligt-brev.html">Personligt brev</a>
+        <a class="tab" href="./projects.html">Projekt</a>
+      </nav>
+
+      <div class="actions">
+        <button class="btn btn--ghost" id="btnOpenPdf" data-pdf="../pdf/cv-vitaliia-sivakova.pdf" type="button"
+          title="Öppna PDF-versionen av CV">
+          Ladda ner PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <section class="card hero">
+      <div class="hero__photo">
+        <!-- Replace the image path with your own photo in /assets -->
+        <img src="../assets/profile.jpg" alt="Profilfoto"
+          onerror="this.style.display='none'; this.parentElement.classList.add('hero__photo--placeholder');" />
+        <div class="photoPlaceholder">
+          <div class="photoPlaceholder__text"></div>
+        </div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__name">Vitaliia Sivakova</div>
+        <div class="hero__role">Webbutvecklare .NET (studerande) • Söker LIA v.49–17 (30 nov 2026 – 23 apr 2027)</div>
+
+        <div class="chips" aria-label="Snabb info">
+          <span class="chip">Sverige</span>
+          <span class="chip">C# / ASP.NET Core</span>
+          <span class="chip">React / TypeScript</span>
+          <span class="chip">SQL / EF Core</span>
+          <span class="chip">Docker</span>
+        </div>
+
+        <div class="contactGrid">
+          <div class="contactItem">
+            <div class="contactItem__label">Telefon</div>
+            <a class="contactItem__value" href="tel:+46729431427">+46 729 43 14 27</a>
+          </div>
+          <div class="contactItem">
+            <div class="contactItem__label">E-post</div>
+            <a class="contactItem__value"
+              href="mailto:vitaliia.sivakova@yh.nackademin.se">vitaliia.sivakova@yh.nackademin.se</a>
+          </div>
+          <div class="contactItem">
+            <div class="contactItem__label">GitHub</div>
+            <a class="contactItem__value" href="https://github.com/bondarenkovita35-afk" target="_blank"
+              rel="noreferrer">github.com/bondarenkovita35-afk</a>
+          </div>
+          <div class="contactItem">
+            <div class="contactItem__label">LinkedIn</div>
+            <a class="contactItem__value" href="https://www.linkedin.com/in/vitaliia-sivakova-865471187" target="_blank"
+              rel="noreferrer">linkedin.com/in/vitaliia-sivakova-865471187</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <section class="card">
+        <h2>Kort profil</h2>
+        <p>
+          Målmedveten och tekniskt engagerad webbutvecklare .NET med starkt fokus på backend, systemarkitektur och
+          strukturerad kod.
+          Studerar Webbutvecklare .NET på Nackademin och söker LIA där jag kan bidra i skarpa projekt och
+          vidareutvecklas inom modern system- och webbutveckling.
+        </p>
+        <p>
+          Jag arbetar metodiskt, lär mig snabbt och trivs i team med tydliga processer, kvalitetstänk och professionell
+          kommunikation.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Kompetenser</h2>
+        <div class="twoCols">
+          <div>
+            <h3>Programmering</h3>
+            <ul>
+              <li>C#, .NET</li>
+              <li>OOP, SOLID</li>
+              <li>Designmönster (Factory, Repository, MVC)</li>
+            </ul>
+
+            <h3>Backend</h3>
+            <ul>
+              <li>ASP.NET Core</li>
+              <li>REST API</li>
+              <li>Entity Framework</li>
+              <li>Databasintegration</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Frontend</h3>
+            <ul>
+              <li>React</li>
+              <li>JavaScript, TypeScript</li>
+              <li>HTML, CSS</li>
+              <li>Responsiv design</li>
+            </ul>
+
+            <h3>Databas & Infrastruktur</h3>
+            <ul>
+              <li>SQL</li>
+              <li>Docker</li>
+              <li>Git / GitHub</li>
+              <li>Grundläggande DevOps</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card span2">
+        <h2>Tekniska projekt</h2>
+
+        <div class="project">
+          <div class="project__head">
+            <h3>True Sweden – Fullstack-plattform (e-handelsflöden)</h3>
+            <div class="project__meta">Egenutvecklat projekt • Fokus: arkitektur, backend-struktur, användarflöden</div>
+          </div>
+          <div class="project__body">
+            <div class="pillRow" aria-label="Tekniker">
+              <span class="pill">ASP.NET Core</span>
+              <span class="pill">REST API</span>
+              <span class="pill">SQL</span>
+              <span class="pill">Entity Framework</span>
+              <span class="pill">React / TypeScript</span>
+              <span class="pill">Docker</span>
+              <span class="pill">Git</span>
+            </div>
+            <ul class="bullets">
+              <li>Designat systemstruktur med tydlig separation mellan lager och ansvar.</li>
+              <li>Byggt API-endpoints och implementerat centrala användarflöden (t.ex. orderflöde).</li>
+              <li>Arbetat med databasintegration, migreringar och relationsmodellering.</li>
+              <li>Containeriserat lokal miljö för stabil utveckling och enkel körning.</li>
+              <li>Fokus på kodkvalitet, struktur och vidareutvecklingsbarhet.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__head">
+            <h3>Fullstack-applikation (.NET + React)</h3>
+            <div class="project__meta">Skol-/egen projekt • REST API + frontend</div>
+          </div>
+          <div class="project__body">
+            <div class="pillRow">
+              <span class="pill">C#</span>
+              <span class="pill">ASP.NET Core</span>
+              <span class="pill">EF Core</span>
+              <span class="pill">SQL</span>
+              <span class="pill">React</span>
+              <span class="pill">TypeScript</span>
+            </div>
+            <ul class="bullets">
+              <li>Utvecklat REST API med CRUD och tydlig struktur.</li>
+              <li>Implementerat databaskopplingar med Entity Framework och migrations.</li>
+              <li>Skapat komponentbaserad frontend i React med formulär och användarflöden.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project__head">
+            <h3>Databasteknik – relationsdatabas</h3>
+            <div class="project__meta">Datamodellering & SQL</div>
+          </div>
+          <div class="project__body">
+            <div class="pillRow">
+              <span class="pill">SQL</span>
+              <span class="pill">Normalisering</span>
+              <span class="pill">Frågor & joins</span>
+              <span class="pill">Integration</span>
+            </div>
+            <ul class="bullets">
+              <li>Design och normalisering av tabeller med relationer.</li>
+              <li>Skrivit SQL-frågor och analyserat dataflöden.</li>
+              <li>Integrerat datalager med backend.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Utbildning</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__when">Aug 2025 – Maj 2027</div>
+            <div class="timeline__what">
+              <div class="timeline__title">Webbutvecklare .NET – Nackademin</div>
+              <div class="timeline__sub">Yrkeshögskola</div>
+              <div class="small">
+                Kurser: Programmering med C#, ASP.NET 1 & 2, Frontend 1 & 2, Databasteknik, OOA&D, DevOps,
+                CMS-utveckling
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__when">2022 – 2025</div>
+            <div class="timeline__what">
+              <div class="timeline__title">Gymnasial utbildning – Sverige</div>
+              <div class="small">SVA 3, Engelska 5</div>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__when">1987 – 1999</div>
+            <div class="timeline__what">
+              <div class="timeline__title">Gymnasial utbildning – Ukraina</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Arbetslivserfarenhet</h2>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__when">2023 – 2026</div>
+            <div class="timeline__what">
+              <div class="timeline__title">Lagerarbetare – Zalando, PostNord, CEVA Logistics</div>
+              <ul class="bullets bullets--tight">
+                <li>Teamarbete med rutiner och deadlines.</li>
+                <li>Problemlösning i högt tempo.</li>
+                <li>Ansvarsfullt arbetssätt och tydlig kommunikation.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card span2">
+        <h2>Språk</h2>
+        <div class="langGrid">
+          <div class="lang">
+            <div class="lang__name">Svenska</div>
+            <div class="lang__level">Bra nivå (yrkesanpassat)</div>
+          </div>
+          <div class="lang">
+            <div class="lang__name">Engelska</div>
+            <div class="lang__level">God nivå</div>
+          </div>
+          <div class="lang">
+            <div class="lang__name">Ryska</div>
+            <div class="lang__level">Modersmål</div>
+          </div>
+          <div class="lang">
+            <div class="lang__name">Ukrainska</div>
+            <div class="lang__level">Flytande</div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="https://bondarenkovita35-afk.github.io/vs-litecode-studio/" target="_blank" rel="noopener noreferrer">
+        by <strong>VS LiteCode Studio</strong>
+      </a>
+    </div>
+  </footer>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
