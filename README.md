@@ -1,6 +1,6 @@
- https://bondarenkovita35-afk.github.io/lia-cv-site-quartal-pro-v2/
 
-LIA Portfolio – Quartal Ventures AB
+
+LIA Portfolio – POSTNORD
 
 This package contains a single portfolio project prepared for a LIA application.
 
